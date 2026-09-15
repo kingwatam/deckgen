@@ -1,0 +1,17 @@
+{
+  "name": "deckgen",
+  "version": "1.0.0",
+  "description": "Agent skill for automated PowerPoint generation with pptxgenjs",
+  "main": "build_deck.js",
+  "scripts": {
+    "build": "node build_deck.js",
+    "preview": "node build_deck.js && start Presentation.pptx"
+  },
+  "keywords": ["pptx", "pptxgenjs", "presentation", "slides", "agent", "skill"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
